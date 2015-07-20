@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlickerPublicImage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_flickr">Hello Flickr</string>
+    <string name="no_input">Enter Text To Search...</string>
+    <string name="loading_img">Loading images from Flickr. Please wait...</string>
+    <string name="no_result">No images found...</string>
+
+</resources>

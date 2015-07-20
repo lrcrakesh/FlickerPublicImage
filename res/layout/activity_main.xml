@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_flickr"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+    
+    <EditText
+    android:id="@+id/searchtext"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="Text of Photo To Search"
+    android:windowSoftInputMode="stateHidden"
+    android:focusable="true"
+    android:singleLine="true"
+    android:lines="1"
+    android:maxLines="1"
+    android:maxLength="150"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    />
+	<Button
+    android:id="@+id/searchbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Search"
+    />
+	<TextView  
+    android:id="@+id/queryresult"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:visibility="invisible"
+    />
+ 	<GridView 
+ 		android:id="@+id/gridView"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="match_parent"
+ 		android:numColumns="auto_fit"
+ 		android:gravity="center"
+ 		android:stretchMode="columnWidth"
+ 	/>
+</LinearLayout>
